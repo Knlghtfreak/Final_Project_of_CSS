@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+
+.logo{
+    background-image: url('/Asset/Logo/pngimg.com\ -\ amazon_PNG25.png');
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+   
+}
+
+.nav-logo-border{
+    height: 50px;
+    width: 150px;
+}
+
+
