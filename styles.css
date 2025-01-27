@@ -14,15 +14,15 @@
     display: flex;
 }
 
-.nav-logo-border{
+/* .nav-logo-border{
     height: 50px;
     width: 150px;
-}
+} */
 
 .logo{
     background-image: url('/Asset/Logo/pngimg.com\ -\ amazon_PNG25.png');
     background-size: cover;
-    height: 50px;
+    height: 54px;
     width: 150px;
     border: 1px solid transparent;
    
@@ -38,7 +38,7 @@
     margin: 1px;
     width: 85px;
     border: 1px solid transparent;
-    padding: 6px 0px 6px 0px;
+    padding: 10px 0px 10px 10px;
 }
 .nav-address:hover{
     border-radius: 4px;
