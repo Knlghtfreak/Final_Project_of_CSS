@@ -38,7 +38,7 @@
     margin: 1px;
     width: 85px;
     border: 1px solid transparent;
-    padding: 5px 0px 5px 0px;
+    padding: 6px 0px 6px 0px;
 }
 .nav-address:hover{
     border-radius: 4px;
@@ -49,13 +49,13 @@
 .add-first{
 color: #CCCCCC;
 font-size: 0.8rem;
-margin-left: 26px;
+margin-left: 15px;
 }
 
 .add-second{
 font-weight: bold;    
 font-size: 1rem;
-margin-left: 2px;
+margin-left: 4px;
 }
 
 .add-icon{
