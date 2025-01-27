@@ -9,14 +9,8 @@
 .navbar{
     height: 60px;
     background-color: #0f1111;
-}
-
-.logo{
-    background-image: url('/Asset/Logo/pngimg.com\ -\ amazon_PNG25.png');
-    background-size: cover;
-    height: 50px;
-    width: 100%;
-   
+    align-items: center;
+    display: flex;
 }
 
 .nav-logo-border{
@@ -24,4 +18,15 @@
     width: 150px;
 }
 
+.logo{
+    background-image: url('/Asset/Logo/pngimg.com\ -\ amazon_PNG25.png');
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+    border: 1px solid transparent;
+   
+}
 
+.logo:hover{
+    border: 1px solid white;
+}
