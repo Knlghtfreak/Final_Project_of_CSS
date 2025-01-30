@@ -146,7 +146,9 @@ span{
 }
 
 .nva-cart{
-    margin-top: 10px;
+    width: 55px;
+    border: 1px solid transparent;
+    padding: 16px 6px 6px 6px;
     font-size: 0.8rem;
     font-weight: 700;
 }
