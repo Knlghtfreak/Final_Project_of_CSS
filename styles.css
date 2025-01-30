@@ -7,7 +7,7 @@
 }
 
 .navbar{
-    height: 60px;
+    height: 50px;
     background-color: #0f1111;
     color: white;
     align-items: center;
@@ -18,8 +18,8 @@
 .logo{
     background-image: url('/Asset/Logo/pngimg.com\ -\ amazon_PNG25.png');
     background-size: cover;
-    height: 54px;
-    width: 150px;
+    height: 45px;
+    width: 120px;
     border: 1px solid transparent;
    
 }
@@ -31,9 +31,9 @@
 
 
 .nav-address{
-    width: 90px;
+    width: 70px;
     border: 1px solid transparent;
-    padding: 10px 0px 10px 10px;
+    padding: 6px;
 }
 .nav-address:hover{
     border-radius: 4px;
@@ -60,14 +60,17 @@ margin-left: 4px;
 
 .nav-search{
     display:flex;
-    background-color: #CCCCCC;
     justify-content: space-evenly;
     width: 500px ;
-    height: 48px;
-    border-radius: 4px;
+    height: 36px;
+    border-radius: 6px;
     border: none;
+    border: 2px solid transparent;
 }
 
+.nav-search:hover{
+    border: 2px solid #ff660e;
+}
 
 .search-select{
     background-color: #f3f3f3;
@@ -76,13 +79,16 @@ margin-left: 4px;
     border-bottom-left-radius: 4px;
     border: none;
     padding: 10px;
+    outline: none;
 }
 
 .input{
     width:100%;
     font-size: 1rem;
-    border: none;
+    border: transparent;
     padding: 8px;
+    outline: none;
+
 }
 
 .search-icon{
@@ -98,7 +104,7 @@ margin-left: 4px;
 .account-sign{
     border: 1px solid transparent;
     width: 110px;
-    padding: 10px;
+    padding: 6px;
   }
 
 .account-sign:hover{
@@ -118,7 +124,7 @@ span{
 .return{
     border: 1px solid transparent;
     width: 50px;
-    padding: 10px;
+    padding: 6px;
 }
 
 .return:hover{
@@ -137,4 +143,19 @@ span{
 
 .fa-magnifying-glass{
     font-size: medium;
+}
+
+.nva-cart{
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.nva-cart:hover{
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.fa-shopping-cart{
+    font-size: 22px;
 }
