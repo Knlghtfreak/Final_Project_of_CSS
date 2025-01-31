@@ -31,7 +31,7 @@
 
 
 .nav-address{
-    width: 70px;
+    width: max-content;
     border: 1px solid transparent;
     padding: 6px;
 }
@@ -42,6 +42,7 @@
 
 
 .add-first{
+width: max-content;
 color: #CCCCCC;
 font-size: 0.8rem;
 margin-left: 11px;
@@ -61,7 +62,7 @@ margin-left: 4px;
 .nav-search{
     display:flex;
     justify-content: space-evenly;
-    width: 500px ;
+    width:-webkit-fill-available;
     height: 36px;
     border-radius: 6px;
     border: none;
@@ -102,8 +103,8 @@ margin-left: 4px;
 
 .account-sign{
     border: 1px solid transparent;
-    width: 110px;
-    padding: 6px;
+    width:max-content;
+    padding: 4px;
   }
 
 .account-sign:hover{
@@ -116,13 +117,14 @@ span{
 }
 
 .nav-second{
+    width: max-content;
     font-size: 0.8rem;
     font-weight: 700;
 }
 
 .return{
     border: 1px solid transparent;
-    width: 50px;
+    width: max-content;
     padding: 6px;
 }
 
@@ -132,7 +134,9 @@ span{
 }
 
 .list-group{
+    width: max-content;
     display: flex;
+    gap: 6px;
     justify-content: space-between;
 }
 
