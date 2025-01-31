@@ -31,7 +31,7 @@
 
 
 .nav-address{
-    width: max-content;
+    width: min-content;
     border: 1px solid transparent;
     padding: 6px;
 }
