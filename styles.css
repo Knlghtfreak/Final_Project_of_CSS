@@ -12,7 +12,7 @@
     color: white;
     align-items: center;
     display: flex;
-    justify-content: space-evenly;
+    padding: 0px 50px 0px 50px;
 }
 
 .logo{
@@ -149,7 +149,9 @@ span{
 }
 
 .nva-cart{
-    width: 55px;
+    gap: 2px;
+    display: flex;
+    width:max-content;
     border: 1px solid transparent;
     padding: 16px 6px 6px 6px;
     font-size: 0.8rem;
@@ -161,6 +163,9 @@ span{
     border: 1px solid white;
 }
 
+.carts{
+    margin-top: 10px;
+}
 .fa-shopping-cart{
     font-size: 22px;
 }
