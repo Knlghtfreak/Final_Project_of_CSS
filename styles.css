@@ -153,7 +153,7 @@ span{
     display: flex;
     width:max-content;
     border: 1px solid transparent;
-    padding: 16px 6px 6px 6px;
+    padding: 14px 6px 6px 6px;
     font-size: 0.8rem;
     font-weight: 700;
 }
@@ -169,3 +169,44 @@ span{
 .fa-shopping-cart{
     font-size: 22px;
 }
+
+.fa-bars{
+    font-size: 18px;
+}
+
+ .all-icon{
+    padding: 8px;
+    gap: 6px;
+    display: flex;
+    border: 1px solid transparent;
+ }
+
+ .all-icon:hover{
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.sec-nav-list{
+    padding: 10px;
+    border: 1px solid transparent;
+    width:max-content;
+}
+
+.sec-nav-list:hover{
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.sec-nav{
+    justify-content: flex-start;
+    color: white;
+    width: 100%;
+    background-color: #1c1f22;
+    padding: 1px;
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    margin-bottom: 10px;
+    user-select:none;
+}
+
