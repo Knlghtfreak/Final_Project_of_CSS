@@ -4,6 +4,7 @@
     border: border-box;
     font-family: Arial;
     text-decoration: none;
+    user-select:none;
 }
 
 .navbar{
@@ -12,7 +13,7 @@
     color: white;
     align-items: center;
     display: flex;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 10px 0px 10px;
 }
 
 .logo{
@@ -21,6 +22,7 @@
     height: 45px;
     width: 120px;
     border: 1px solid transparent;
+    user-select:none;
    
 }
 
@@ -67,6 +69,7 @@ margin-left: 4px;
     border-radius: 6px;
     border: none;
     border: 2px solid transparent;
+    user-select:none;
 }
 
 .nav-search:hover{
@@ -104,6 +107,7 @@ margin-left: 4px;
 .account-sign{
     border: 1px solid transparent;
     width:max-content;
+    user-select:none;
     padding: 4px;
   }
 
@@ -125,6 +129,7 @@ span{
 .return{
     border: 1px solid transparent;
     width: max-content;
+    user-select:none;
     padding: 6px;
 }
 
@@ -165,8 +170,11 @@ span{
 
 .carts{
     margin-top: 10px;
+    user-select:none;
+
 }
 .fa-shopping-cart{
+    user-select:none;
     font-size: 22px;
 }
 
@@ -176,7 +184,7 @@ span{
 
 /* sec-navbar */
  .all-icon{
-    padding: 8px;
+    padding: 10px;
     gap: 6px;
     display: flex;
     border: 1px solid transparent;
@@ -198,16 +206,138 @@ span{
     border: 1px solid white;
 }
 
+.shop-for-deal{
+    color: #ffffff;
+    font-weight: bold;
+    width: max-content;
+    border: 1px solid transparent;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.shop-for-deal:hover{
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.lists{
+    display: flex;
+}
+
+.icon-and-list{
+    display: flex;
+    align-items: center;
+}
+
 .sec-nav{
-    justify-content: flex-start;
+    min-height: 42px;
+    justify-content: space-between;
     color: white;
     width: 100%;
     background-color: #1c1f22;
-    padding: 1px;
     display: flex;
-    gap: 0px;
     align-items: center;
-    margin-bottom: 10px;
     user-select:none;
 }
 /* ------------------- */
+
+/* Hero-section */
+.hero-section{
+    background-image: url(/Asset/Images/71VcGrxQRBL._SX3000_.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    min-width: 1400px;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero-text{
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 80%;
+    margin-bottom: 20px;
+    gap:10px;
+
+}
+
+.hero-text a{
+    font-weight: bold;
+}
+
+.hero-text a:active{
+    color: #ff660e;
+}
+/* ------------------- */
+
+/* Product-section */
+
+.product-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    min-width: 1400px;
+    justify-content: space-evenly;
+}
+
+.box{
+    gap:14px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.box1-img{
+    background-image: url(/Asset/Images/Bedding_1x._SY116_CB563137408_.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.box2-img{
+    background-image: url(/Asset/Images/CleaningTool_1x._SY116_CB563137408_.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.box3-img{
+    background-image: url(/Asset/Images/DQC_APR_TBYB_W_BOTTOMS_1x._SY116_CB624172947_.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.box4-img{
+    background-image: url(/Asset/Images/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.box p{
+    font-size: 1rem;
+    color: #333333;
+}
+
+.box p:hover{
+    color: #ff660e;
+}
+
+/* -------------------- */
+
+/* Main */
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(221, 221, 221, 0.952);
+}
+/* -------------------- */
