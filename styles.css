@@ -240,8 +240,6 @@ span{
 }
 
 .sec-nav{
-    /* position: relative;
-    overflow: hidden; */
     min-height: 42px;
     justify-content: space-between;
     color: white;
@@ -254,6 +252,7 @@ span{
 /* ------------------- */
 
 /* Hero-section */
+
 .hero-section{
     background-image: url(/Asset/Images/71VcGrxQRBL._SX3000_.jpg);
     background-size: cover;
@@ -262,7 +261,6 @@ span{
     min-width: 1400px;
     justify-content: center;
     align-items: flex-end;
-
 }
 
 .hero-text{
