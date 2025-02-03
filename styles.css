@@ -258,9 +258,12 @@ span{
     background-size: cover;
     height: 350px;
     display: flex;
-    min-width: 1400px;
+    min-width: 1500px;
+    margin: 0 auto;
+    padding: 0px 10px;
     justify-content: center;
     align-items: flex-end;
+    overflow-x: hidden;
 }
 
 .hero-text{
@@ -293,7 +296,7 @@ span{
     width: calc((100% - 60px) / 4);
     gap: 20px;
     min-width: 1400px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .box{
@@ -352,6 +355,8 @@ span{
     align-items: center;
     padding-bottom: 20px;
     background-color: rgba(221, 221, 221, 0.952);
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 /* -------------------- */
